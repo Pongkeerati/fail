@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nu's Fav Dishes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        .p1 {
+            font-family: "Jersey 10", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;        
+            margin-bottom: 1;
+            margin-top: 20px;
+            height: 50%;
+            width: 100%;
+            font-size: 6em;
+        }
+        h1 {
+            background-color: aquamarine;
+            border: 8px solid lightseagreen;
+            border-radius: 10px;
+            height: fit-content;
+            width: auto;
+            font-size: 600%;
+           
+        }
+        body{
+            background-color: rgb(253, 209, 216);
+            text-align: center;
+            background-image: url(img/dish.webp); 
+            background-size: 40em;
+            font-family: "Jersey 10", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+        }
+        .center {
+            border: 5px none;
+            margin: auto;
+            width: 57em;    
+        }
+        .centered {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            text-align: center;
+        }
+        .topleft {
+            position: absolute;
+            top: 110px;
+            left: 200px;
+        }
+        .topright {
+            position: absolute;
+            top: 110px;
+            right: 200px;
+        }
+        .bottomleft {
+            position: absolute;
+            bottom: 220px;
+            left: 190px;
+        }
+        .bottomright {
+            position: absolute;
+            bottom: 200px;
+            right: 180px;
+        }
+        .bottom {
+            position: absolute;
+            bottom: 15px;
+            right: 60px;
+        }
+        .container {
+            position: relative;
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1 class="p1";>
+            <img style="height: 90px; width: 90px; vertical-align: middle;" src="food/burger.gif"> Nu's favorite dishes <img style="height: 90px; width: 90px; vertical-align: middle;" src="food/burger.gif">
+    </h1>
+    <h2 style="height: 100%; width: 100%;">
+    <div class="container">
+        <img src="food/Table.png" style="height: 90%; width: 90%; border-radius: 8px;">
+        <div class="centered"> <a href="img/NuandNoodles.jpg"><img src="food/noodles.png"></a></div>
+        <div class="topright"> <a href="img/NuandCake.jpg"><img src="food/Cake.png"></a></div>
+        <div class="topleft"> <a href="img/Nuwithsteak.mp4"><img src="food/Steak.png"></a></div>
+        <div class="bottomleft"> <a href="img/Nuwithicecream.jpg"><img src="food/icecream.png"></a></div>
+        <div class="bottomright"> <a href="img/NuandSteak.jpg"><img src="food/Spaghetti.png"></a></div>
+        <div class="bottom"> <a href="img/Pii.JPG"><img src="food/Shiba.gif"></a></div>
+    </div>
+    </h2>
+    
+    <p><a href="index.html"> <img src="icon/home.png" style="height: 50px; width: 50px;"> </a></p>
+    <audio controls autoplay loop id="myaudio"> 
+        <source src="songs/Blue Archive OST 47. Coffee Cats.mp3" type="audio/mpeg" class="volume">
+    </audio>
+    <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.1;
+    </script>
+</body>
+</html>

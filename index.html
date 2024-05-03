@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my Dedyyyy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<style>
+    .p1 {
+            font-family: "Jersey 10", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;        
+            margin-bottom: 0;
+            margin-top: 5px;
+            height: 50%;
+            width: 100%;
+            font-size: 5em;
+    }
+    h1 {
+            border: 6px solid lightblue;
+            background-color: rgb(119, 202, 195);
+            color: white;
+    }
+    a:link, a:visited {
+            background-color: none;
+            color: black;
+            padding: 10px 10px;
+            display: inline-block;
+            border-radius: 20px;
+            margin-right: 30px;
+            align-items: center;
+    }
+    a:hover, a:active {
+            background-color: rgb(157, 207, 219);
+            height: fit-content;
+    }
+    body {
+            background-color: rgb(253, 209, 216);
+            text-align: center;
+            background-image: url(img/background.webp); 
+            background-size: 140em;
+            padding:0;
+            margin:0;
+
+    }
+    div.polaroid {
+            width: 35em;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 25px;
+    }
+    div.container {
+            text-align: center;
+            padding: 10px 20px;
+            font-family: "Jersey 10", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 19px;
+    }   
+    .center {
+            border: 5px none;
+            margin: auto;
+            width: 35em;    
+    }
+    img {
+            border-radius: 20px;
+    }
+    audio {
+            display: none;
+    }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1 class="p1";>
+        <span style="vertical-align: middle;" class="material-symbols-outlined">favorite</span> This is my Dedy <span style="vertical-align: middle;" class="material-symbols-outlined">favorite</span>
+    </h1>
+    
+    <h2>  
+        <a href="https://www.facebook.com/">  <img src="icon/Facebook.jpeg"; height="70px" width="70px"> </a>
+        <a href="https://www.youtube.com/">  <img src="icon/Youtube.jpeg"; height="70px" width="70px"> </a>
+        <a href="https://www.google.com/gmail/about/"> <img src="icon/Mail.jpg"; height="70px" width="70px"> </a>
+    </h2>
+    
+    </div>
+    <div class="center">
+        <div class="polaroid">
+            <img src="img/Nu11.jpg" style="width:35em">
+            <div class="container">
+            <p>This look of yours is too much for my <span style="vertical-align: middle;" class="material-symbols-outlined">favorite</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="center">
+        <p> 
+            <a href="gallery.html"> <img src="icon/camera 1.png"; height="60px" width="60px"> </a> 
+            <a href="favourite dishs.html"> <img src="icon/food.png"; height="60px" width="60px"> </a>
+            <a href="favourite drinks.html"> <img src="icon/drink.png"; height="60px" width="60px"> </a>
+            <a href="favourite songs.html"> <img src="icon/song.png"; height="60px" width="60px"> </a>
+        </p>
+    </div>
+    <audio controls autoplay loop id="myaudio"> 
+        <source src="songs/happiest girl.mp3" type="audio/mpeg" class="volume">
+    </audio>
+    <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.1;
+    </script>
+</body>
+</html>
